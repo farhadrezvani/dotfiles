@@ -1,0 +1,28 @@
+window {
+  margin: 0px;
+}
+
+#input {
+  margin: 5px;
+  border: none;
+}
+
+#inner-box {
+  margin: 5px;
+  border: none;
+}
+
+#outer-box {
+  margin: 5px;
+  border: none;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+#text {
+  margin: 5px;
+  border: none;
+}
