@@ -238,6 +238,9 @@ bindsym $mod+c exec clipman pick -t wofi
 # Network Manager
 exec nm-applet --indicator
 
+# Polkit
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
 # Screenshot
 bindsym $mod+p exec /usr/share/sway/scripts/grimshot --notify save screen
 bindsym $mod+shift+p exec /usr/share/sway/scripts/grimshot --notify save window
