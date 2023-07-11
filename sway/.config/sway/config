@@ -22,11 +22,12 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 set $text #ffffff
 set $border #64727d90
 set $background #2b303b90
+set $indicator #90b1b1
 set $wallpaper $(find $HOME/Pictures/Wallpaper/. -type f | shuf -n1)
 
 gaps inner 10
-#default_border pixel 2
-client.focused $border $border $text $border
+default_border pixel 2
+client.focused $border $border $text $indicator $border
 
 ### Output configuration
 #
