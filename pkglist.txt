@@ -20,3 +20,4 @@ swaylock
 ttf-jetbrains-mono
 waybar
 wofi
+xdg-desktop-portal-wlr

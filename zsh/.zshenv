@@ -1,3 +1,6 @@
+# sway
+export XDG_CURRENT_DESKTOP=sway
+
 # fnm
 path+=$HOME/.local/share/fnm
 eval "`fnm env`"
