@@ -10,3 +10,6 @@ path+=$(go env GOPATH)/bin
 
 # pip
 path+=$HOME/.local/bin
+
+# keepassxc
+export QT_QPA_PLATFORM=xcb
